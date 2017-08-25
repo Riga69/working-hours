@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Форма валидации</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bower/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet/less" href="style.less">
+	<script src="bower/jquery/jquery.min.js"></script>
+	<script src="bower/less/dist/less.min.js"></script>
+</head>
+<body>
+<section class="wrapper">
+	<button id="openFormValidation">Нажмите</button>
+</section>
+<section class="modal-wrapper">
+	<div class="modal-form">
+		<form class="form-validation">
+			
+			<div class="form-button-close">
+				<span id="close">X</span>
+			</div>
+			<div class="text-center">
+				<figure>
+					<img src="images/skin.png">
+				</figure>
+				<input type="email" class="form-input profile" id="email" name="email" onkeyup="checkWord();" minlength="5" maxlength="30" required/>
+				<div id="email_text" class="text_error"></div>
+				<input type="password" class="form-input key" id="pass" onkeyup="checkWord();" minlength="5" maxlength="30" required/>
+				<div id="password_text" class="text_error"></div>
+				<div class="text-left">
+					<a href>Forgot your password?</a>
+				</div>
+				<div class="form-footer">
+					<i class="fa fa-check" aria-hidden="true"></i>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+					<span>Remember?</span>
+					<input type="submit" value="Sign In" id="btn-sbt" class="btn-submit" disabled="disabled" onclick="checkValid()">
+				</div>
+			</div>
+		</form>
+			<div class="border border-1"></div>
+			<div class="border border-2"></div>
+		<div class="field-registration">No a registrated user eat? <a href> Sign up now!</a></div>
+	</div>
+	<div class="field-form"></div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
