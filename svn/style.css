@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto; height: 100%;
+}
+.wrapper {
+    padding: 5% 0 0 40%;
+}
+.qvadrat {
+    background: #EDABCB; width: 40px; height: 40px; border: 1px solid #000; float: left;
+}
+.clear {
+    clear: both;
+}
+#q1 {
+    margin-left: 135px;
+}
+#q3 {
+    margin-left: 20px; 
+}
+#q4, #q5 {
+    margin-left:  80px; 
+}
+#q6 {
+    margin-left: 62px;
+}
+#q7, #q8, #q9 {
+    margin-left: 20px; 
+}
+#q10 {
+    margin-left: 186px;
+}
+#q3, #q6 {
+    border-top: 1px solid #000;
+}
+#svg_y1 {
+    margin-left: 157px;
+}
+#svg_x1 {
+    margin-left: 21px;
+}
+#svg_y2 {
+    margin-left: 21px;
+}
+#svg_y3 {
+    margin: -20px 0 0 84px;
+}
+#svg_y4 {
+    margin: -20px 0 0 206px;
+}
+#svg_y5 {
+    margin: -20px 0 0 328px;
+}
+#svg_y6 {
+    margin-left: 83px;
+}
+#svg_y7 {
+    margin-left: 206px; margin-top: -40px;
+}
+#svg_x2 {
+    margin: -20px 0 0 143px;
+}
+#svg_y8 {
+    margin-left: 143px; margin-top: -20px;
+}
+#svg_y9 {
+    margin-left: 206px; margin-top: -20px;
+}
+#svg_y10 {
+    margin-left: 270px; margin-top: -20px;
+}
+#svg_y11 {
+    margin-left: 206px;
+}
